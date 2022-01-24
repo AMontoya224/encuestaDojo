@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.8vw;
+}
+
+form{
+    background-color: rgb(32, 32, 32);
+    margin: 1vw 30vw;
+    border-radius: 1vw;
+    padding: 0.1vw 5vw;
+}
+
+.formato2 p{
+    font-size: 1.4vw;
+    text-align: left;
+}
+
+h1{
+    font-size: 3vw;
+    color: rgb(12, 113, 160);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0.7vw;
+}
+
+label{
+    color: white;
+}
+label:hover{
+    color: rgb(12, 113, 160);
+}
+
+select, input{
+    margin: 0.2vw;
+    font-size: 1.3vw;
+    padding: 0.3vw;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+input:hover{
+    background-color: rgb(230, 233, 236);
+}
+
+#comentario{
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    padding: 0.5vw;
+    height: 13vw;
+    font-size: 1.2vw;
+    max-width: 95%;
+    min-height: 13vw;
+    max-height: 30vw;
+}
+
+button{
+    background-color: rgb(12, 113, 160);
+    color:white;
+    height: 3.5vw;
+    padding: 0 2vw;
+    margin: 0.6vw 0 1.7vw 0;
+    border-radius: 0.3vw;
+    border: 0.2vw solid rgb(8, 8, 8);
+    box-shadow: 0.3vw 0.3vw rgb(8, 8, 8);
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(5, 83, 119);
+}
